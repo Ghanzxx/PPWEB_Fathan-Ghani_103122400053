@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Atlas Bumi (Frontend React)
 
 Aplikasi katalog lokasi geografis. Entitas data utama: **Lokasi** (nama, jenis, wilayah, ketinggian, deskripsi).
@@ -18,3 +19,7 @@ Buka http://localhost:5173
 - `Footer`
 
 State daftar lokasi berada di `App.jsx`.
+=======
+# PPWEB_Fathan Ghani_103122400053
+
+>>>>>>> a06f15fa94015b7314e817253ce59addb634a214
