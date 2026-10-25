@@ -1,0 +1,27 @@
+:root {
+  --bg: #f1f5f3; --ink: #10282e; --muted: #4b6368; --card: #ffffff;
+  --line: #c4d5d3; --accent: #0f6b7a; --accent-ink: #ffffff; --sea: #cfe3e6;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0c1a1e; --ink: #e3eeee; --muted: #9bb3b6; --card: #12272d;
+    --line: #274249; --accent: #56c2d3; --accent-ink: #06242a; --sea: #123640;
+  }
+}
+body { background: var(--bg); color: var(--ink); font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 1.05rem; }
+h1, h2, h3, .stat b { font-family: 'Bricolage Grotesque', 'Segoe UI', sans-serif; letter-spacing: -0.02em; }
+h1 { font-weight: 800; font-size: clamp(2.2rem, 6vw, 3.6rem); }
+.hero { background: var(--sea); border-bottom: 1px solid var(--line); }
+.hero .lead { color: var(--muted); max-width: 60ch; }
+.kicker { color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; }
+.stat, .panel, .kartu { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.25rem; }
+.panel { padding: 1.5rem; }
+.stat small { display: block; color: var(--muted); }
+.stat b { font-size: 1.8rem; }
+.badge-jenis { background: var(--sea); color: var(--ink); border-radius: 99px; padding: .15rem .7rem; font-size: .85rem; font-weight: 600; }
+.wilayah { color: var(--muted); }
+.tinggi { font-weight: 600; color: var(--accent); }
+.btn-geo { background: var(--accent); color: var(--accent-ink); font-weight: 600; border: 0; }
+.btn-geo:hover { background: var(--accent); color: var(--accent-ink); opacity: .9; }
+.kosong { border: 2px dashed var(--line); border-radius: 10px; padding: 2.5rem; text-align: center; color: var(--muted); }
+.pie { border-top: 1px solid var(--line); color: var(--muted); }
